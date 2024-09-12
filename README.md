@@ -46,13 +46,16 @@
 ## Примеры
 
 Для примера, если файл `example.txt` содержит следующий текст:
+```
 I AM SAM. I AM SAM. SAM I AM.
 THAT SAM-I-AM! THAT SAM-I-AM! I DO NOT LIKE THAT SAM-I-AM!
 DO WOULD YOU LIKE GREEN EGGS AND HAM?
 I DO NOT LIKE THEM,SAM-I-AM.
 I DO NOT LIKE GREEN EGGS AND HAM.
-
+```
 И вы ищете слово `SaM`, программа выведет:
+```
 1: I AM SAM. I AM SAM. SAM I AM.
 2: THAT SAM-I-AM! THAT SAM-I-AM! I DO NOT LIKE THAT SAM-I-AM!
 4: I DO NOT LIKE THEM,SAM-I-AM.
+```
