@@ -27,9 +27,9 @@ namespace lab1{
 
 
     void to_lower(std::string& str){
-        for (int i = 0; i < (int)str.size(); i++){
-            str[i] = tolower(str[i]);
-        }
+        std::transform(str.begin(), str.end(), str.begin(), [](unsigned char c){
+            return std::tolower(c);
+        });
     }
 
     
