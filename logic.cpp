@@ -46,8 +46,5 @@ namespace logic{
             delete[] cline;
             throw;
         }
-        catch(...){
-            throw;
-        }
     }
 }

@@ -25,8 +25,5 @@ namespace dialog{
         catch(const std::runtime_error& e){
             std::cout << "Проверьте корректность файла!" << std::endl;
         }
-        catch(...){ // для любых других исключений
-            throw;
-        }
     }
 }
